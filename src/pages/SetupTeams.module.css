@@ -24,6 +24,7 @@
   margin-top: 22svh;
   width: 58svw;
   height: 60svh;
+  overflow: scroll;
   background-color: #060ce9;
 }
 

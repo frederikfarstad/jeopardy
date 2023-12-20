@@ -24,8 +24,8 @@
   margin-top: 22svh;
   padding-top: 1rem;
   width: 58svw;
-  height: fit-content;
-  min-height: 60svh;
+  height: 60svh;
+  overflow: scroll;
   background-color: #060ce9;
 }
 
