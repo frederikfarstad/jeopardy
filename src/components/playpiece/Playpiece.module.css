@@ -7,7 +7,7 @@
   cursor: pointer;
 }
 
-p {
+.pieceContainer p {
   color: rgb(255, 183, 0);
   margin: auto;
   padding-top: 0.25rem;
@@ -29,6 +29,9 @@ p {
 }
 
 .categoryContainer p {
+  margin: auto;
+  padding-top: 0.25rem;
+  font-weight: 900;
   width: fit-content;
   font-size: 1rem;
   text-align: center;
