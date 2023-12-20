@@ -1,0 +1,32 @@
+.setupTeamsButton {
+  top: 2rem;
+  left: 2rem;
+}
+
+.button {
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  color: white;
+  background-color: #060ce9;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 500;
+  height: 72px;
+  width: 6rem;
+  line-height: 36px;
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  padding: 2rem 1rem;
+  user-select: none;
+}
+
+.setupQuestionsButton {
+  top: 12rem;
+  left: 2rem;
+}
+
+.restartButton {
+  top: 22rem;
+  left: 2rem;
+}

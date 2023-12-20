@@ -1,0 +1,43 @@
+.pieceContainer {
+  background-color: #060ce9;
+  width: 8svw;
+  height: 7.5svh;
+  margin: 0.5svw;
+  display: inline-block;
+  cursor: pointer;
+}
+
+p {
+  color: rgb(255, 183, 0);
+  margin: auto;
+  padding-top: 0.25rem;
+  font-size: 2rem;
+  font-weight: 900;
+  width: fit-content;
+}
+
+.categoryContainer {
+  width: 8svw;
+  height: 7.5svh;
+  margin: 0.5svw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0107ae;
+  flex-wrap: wrap;
+  overflow: scroll;
+}
+
+.categoryContainer p {
+  width: fit-content;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.clicked {
+  background-color: #03089c;
+  cursor: default;
+}
+.clicked p {
+  color: #03089c;
+}

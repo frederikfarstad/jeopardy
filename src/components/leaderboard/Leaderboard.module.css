@@ -1,0 +1,24 @@
+.leaderboardContainer {
+  position: absolute;
+  right: 0;
+  background-color: #060ce9;
+  padding: 1rem;
+  width: 15svw;
+  top: 10svh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.leaderboardContainer h1 {
+  font-size: 2rem;
+  font-weight: normal;
+  color: rgb(255, 183, 0);
+}
+
+.leaderboardContainer p {
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: white;
+}

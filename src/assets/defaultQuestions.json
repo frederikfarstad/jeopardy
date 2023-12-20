@@ -1,0 +1,192 @@
+{
+  "questions": {
+    "01": {
+      "question": "Question01",
+      "column": 0,
+      "row": 1,
+      "clicked": false
+    },
+    "02": {
+      "question": "Question02",
+      "column": 0,
+      "row": 2,
+      "clicked": false
+    },
+    "03": {
+      "question": "Question03",
+      "column": 0,
+      "row": 3,
+      "clicked": false
+    },
+    "04": {
+      "question": "Question04",
+      "column": 0,
+      "row": 4,
+      "clicked": false
+    },
+    "05": {
+      "question": "Question05",
+      "column": 0,
+      "row": 5,
+      "clicked": false
+    },
+    "11": {
+      "question": "Question11",
+      "column": 1,
+      "row": 1,
+      "clicked": false
+    },
+    "12": {
+      "question": "Question12",
+      "column": 1,
+      "row": 2,
+      "clicked": false
+    },
+    "13": {
+      "question": "Question13",
+      "column": 1,
+      "row": 3,
+      "clicked": false
+    },
+    "14": {
+      "question": "Question14",
+      "column": 1,
+      "row": 4,
+      "clicked": false
+    },
+    "15": {
+      "question": "Question15",
+      "column": 1,
+      "row": 5,
+      "clicked": false
+    },
+    "21": {
+      "question": "Question21",
+      "column": 2,
+      "row": 1,
+      "clicked": false
+    },
+    "22": {
+      "question": "Question22",
+      "column": 2,
+      "row": 2,
+      "clicked": false
+    },
+    "23": {
+      "question": "Question23",
+      "column": 2,
+      "row": 3,
+      "clicked": false
+    },
+    "24": {
+      "question": "Question24",
+      "column": 2,
+      "row": 4,
+      "clicked": false
+    },
+    "25": {
+      "question": "Question25",
+      "column": 2,
+      "row": 5,
+      "clicked": false
+    },
+    "31": {
+      "question": "Question31",
+      "column": 3,
+      "row": 1,
+      "clicked": false
+    },
+    "32": {
+      "question": "Question32",
+      "column": 3,
+      "row": 2,
+      "clicked": false
+    },
+    "33": {
+      "question": "Question33",
+      "column": 3,
+      "row": 3,
+      "clicked": false
+    },
+    "34": {
+      "question": "Question34",
+      "column": 3,
+      "row": 4,
+      "clicked": false
+    },
+    "35": {
+      "question": "Question35",
+      "column": 3,
+      "row": 5,
+      "clicked": false
+    },
+    "41": {
+      "question": "Question41",
+      "column": 4,
+      "row": 1,
+      "clicked": false
+    },
+    "42": {
+      "question": "Question42",
+      "column": 4,
+      "row": 2,
+      "clicked": false
+    },
+    "43": {
+      "question": "Question43",
+      "column": 4,
+      "row": 3,
+      "clicked": false
+    },
+    "44": {
+      "question": "Question44",
+      "column": 4,
+      "row": 4,
+      "clicked": false
+    },
+    "45": {
+      "question": "Question45",
+      "column": 4,
+      "row": 5,
+      "clicked": false
+    },
+    "51": {
+      "question": "Question51",
+      "column": 5,
+      "row": 1,
+      "clicked": false
+    },
+    "52": {
+      "question": "Question52",
+      "column": 5,
+      "row": 2,
+      "clicked": false
+    },
+    "53": {
+      "question": "Question53",
+      "column": 5,
+      "row": 3,
+      "clicked": false
+    },
+    "54": {
+      "question": "Question54",
+      "column": 5,
+      "row": 4,
+      "clicked": false
+    },
+    "55": {
+      "question": "Question55",
+      "column": 5,
+      "row": 5,
+      "clicked": false
+    }
+  },
+  "category": {
+    "0": "Steder",
+    "1": "Category1",
+    "2": "Category2",
+    "3": "Category3",
+    "4": "Category4",
+    "5": "Category5"
+  }
+}

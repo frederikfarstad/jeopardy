@@ -1,0 +1,63 @@
+.boardContainer {
+  margin: auto;
+  margin-top: 22svh;
+  width: 58svw;
+  height: 60svh;
+  background-color: black;
+  display: flex;
+}
+
+.questionCard {
+  margin: auto;
+  width: 50svw;
+  height: fit-content;
+  min-height: 50svh;
+  background-color: #060ce9;
+  padding: 0.5rem;
+  position: relative;
+}
+
+.questionOverlay {
+  position: fixed;
+  width: 100svw;
+  height: 100svh;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.questionCard h1 {
+  color: rgb(255, 183, 0);
+  margin: auto;
+  padding-top: 0.25rem;
+  font-size: 2rem;
+  font-weight: 900;
+  width: fit-content;
+}
+
+.questionCard p {
+  color: white;
+  margin: auto;
+  padding-top: 0.25rem;
+  font-size: 2rem;
+  font-weight: normal;
+  width: fit-content;
+}
+
+.pointContainer {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  bottom: 2rem;
+}
+
+.pointContainer select {
+  margin: 0 1rem;
+}
