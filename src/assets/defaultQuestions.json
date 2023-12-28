@@ -1,192 +1,192 @@
 {
   "questions": {
     "01": {
-      "question": "Question01",
+      "question": "Utenriksminister",
       "column": 0,
       "row": 1,
       "clicked": false
     },
     "02": {
-      "question": "Question02",
+      "question": "Helse- og omsorgsminister",
       "column": 0,
       "row": 2,
       "clicked": false
     },
     "03": {
-      "question": "Question03",
+      "question": "Forsknings- og høyere utdanningsminister",
       "column": 0,
       "row": 3,
       "clicked": false
     },
     "04": {
-      "question": "Question04",
+      "question": "Kultur- og likestillingsminister",
       "column": 0,
       "row": 4,
       "clicked": false
     },
     "05": {
-      "question": "Question05",
+      "question": "Kunnskapsminister",
       "column": 0,
       "row": 5,
       "clicked": false
     },
     "11": {
-      "question": "Question11",
+      "question": "Dørslag",
       "column": 1,
       "row": 1,
       "clicked": false
     },
     "12": {
-      "question": "Question12",
+      "question": "Å ha svin på skogen",
       "column": 1,
       "row": 2,
       "clicked": false
     },
     "13": {
-      "question": "Question13",
+      "question": "Hummer og kanari",
       "column": 1,
       "row": 3,
       "clicked": false
     },
     "14": {
-      "question": "Question14",
+      "question": "Å gå i bresjen",
       "column": 1,
       "row": 4,
       "clicked": false
     },
     "15": {
-      "question": "Question15",
+      "question": "Å snakke fra leveren",
       "column": 1,
       "row": 5,
       "clicked": false
     },
     "21": {
-      "question": "Question21",
+      "question": "Hvor mange mm er én fot?",
       "column": 2,
       "row": 1,
       "clicked": false
     },
     "22": {
-      "question": "Question22",
+      "question": "Hvor mange grader celsius er 86 grader fahrenheit? (+-0.5 grad)",
       "column": 2,
       "row": 2,
       "clicked": false
     },
     "23": {
-      "question": "Question23",
+      "question": "Hvor lang er én håndballbane? (+-1 meter)",
       "column": 2,
       "row": 3,
       "clicked": false
     },
     "24": {
-      "question": "Question24",
+      "question": "Hvem scoret Norges første mål i fotball mot Brazil i VM i 1998?",
       "column": 2,
       "row": 4,
       "clicked": false
     },
     "25": {
-      "question": "Question25",
+      "question": "Erling Braut Haaland har rekorden i flest mål på én sessong i PL, hvor mange? (+-1)",
       "column": 2,
       "row": 5,
       "clicked": false
     },
     "31": {
-      "question": "Question31",
+      "question": "Hvilken er verdens mest dyrkede vindrue?",
       "column": 3,
       "row": 1,
       "clicked": false
     },
     "32": {
-      "question": "Question32",
+      "question": "Hvilket av landene Spania, USA eller Kina er størst vinprodusent?",
       "column": 3,
       "row": 2,
       "clicked": false
     },
     "33": {
-      "question": "Question33",
+      "question": "Hva er det tyske navnet på Pinot Noir?",
       "column": 3,
       "row": 3,
       "clicked": false
     },
     "34": {
-      "question": "Question34",
+      "question": "Hva heter det mest kjente området for produksjon av druer i Libanon?",
       "column": 3,
       "row": 4,
       "clicked": false
     },
     "35": {
-      "question": "Question35",
+      "question": "Hvor mange liter er Baltazar og Methusalem?",
       "column": 3,
       "row": 5,
       "clicked": false
     },
     "41": {
-      "question": "Question41",
+      "question": "Hva heter nordens femte størsste by?",
       "column": 4,
       "row": 1,
       "clicked": false
     },
     "42": {
-      "question": "Question42",
+      "question": "Hvilke er verdens fem største land i areal?",
       "column": 4,
       "row": 2,
       "clicked": false
     },
     "43": {
-      "question": "Question43",
+      "question": "Hvor mange fjell over 2000 m.o.h. er det i Norge? (+-10)",
       "column": 4,
       "row": 3,
       "clicked": false
     },
     "44": {
-      "question": "Question44",
+      "question": "Hva heter Asias største øy?",
       "column": 4,
       "row": 4,
       "clicked": false
     },
     "45": {
-      "question": "Question45",
+      "question": "Hva heter Sør-Amerikas høyeste fjell?",
       "column": 4,
       "row": 5,
       "clicked": false
     },
     "51": {
-      "question": "Question51",
+      "question": "Hvilket bilmerke er det mestselgende i Norge i 2023",
       "column": 5,
       "row": 1,
       "clicked": false
     },
     "52": {
-      "question": "Question52",
+      "question": "Hvem er verdens største bilprodusent i 2023? (antall biler)",
       "column": 5,
       "row": 2,
       "clicked": false
     },
     "53": {
-      "question": "Question53",
+      "question": "Hva står BYD for?",
       "column": 5,
       "row": 3,
       "clicked": false
     },
     "54": {
-      "question": "Question54",
+      "question": "Nevn ett bilmerke i Stelantis-konsernet",
       "column": 5,
       "row": 4,
       "clicked": false
     },
     "55": {
-      "question": "Question55",
+      "question": "I hvilket land ble den siste bobla produsert, og når? (+-5 år)",
       "column": 5,
       "row": 5,
       "clicked": false
     }
   },
   "category": {
-    "0": "Steder",
-    "1": "Category1",
-    "2": "Category2",
-    "3": "Category3",
-    "4": "Category4",
-    "5": "Category5"
+    "0": "Nåværende statsråder",
+    "1": "Opprinnelsen til uttrykket",
+    "2": "Mål",
+    "3": "Fra vinens verden",
+    "4": "Geografi",
+    "5": "Biler"
   }
 }
