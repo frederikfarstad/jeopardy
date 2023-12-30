@@ -26,6 +26,12 @@
   background-color: #0107ae;
   flex-wrap: wrap;
   overflow: scroll;
+  /*hide scrollbar*/
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.categoryContainer::-webkit-scrollbar {
+  display: none;
 }
 
 .categoryContainer p {
