@@ -44,6 +44,8 @@ const Board = ({ gameData }: BoardProps) => {
 
   return (
     <div className={style.boardContainer}>
+      
+      {/* BOARD SETUP */}
       {Array.from({ length: gameData.cols }, (_, i) => (
         <div key={i} className={style.rowContainer}>
           {Array.from({ length: gameData.rows }, (_, j) =>
@@ -70,6 +72,8 @@ const Board = ({ gameData }: BoardProps) => {
           )}
         </div>
       ))}
+
+      {/* CARD DISPLAYING QUESTION */}
       {showQuestion && (
         <div className={style.questionOverlay}>
           <div className={style.questionCard}>
@@ -103,7 +107,7 @@ const Board = ({ gameData }: BoardProps) => {
                   )}
                 </select>
               </label>
-              <button
+              <button className={style.givePoints}
                 onClick={() => {
                   //get team name
                   const teamName = (
@@ -134,7 +138,40 @@ const Board = ({ gameData }: BoardProps) => {
                   });
                   window.dispatchEvent(event);
                 }}>
-                Give points
+                + points
+              </button>
+              <button className={style.subtractPoints}
+                onClick={() => {
+                  //get team name
+                  const teamName = (
+                    document.querySelector("select") as HTMLSelectElement
+                  ).value;
+
+                  //get the list of teams from the local storage
+                  const teamList: teamsInterface = JSON.parse(
+                    localStorage.getItem("teams")!
+                  );
+
+                  //update the score
+                  teamList.teams.forEach((team: teamInterface) => {
+                    if (team.name == teamName) {
+                      team.score -= currentQScore;
+                      console.log("removed points from " + teamName);
+                    }
+                  });
+
+                  //update local storage
+                  localStorage.setItem("teams", JSON.stringify(teamList));
+
+                  setShowQuestion(false);
+
+                  // Dispatch a custom event
+                  const event = new CustomEvent("scoreUpdated", {
+                    detail: teamList.teams,
+                  });
+                  window.dispatchEvent(event);
+                }}>
+                - points
               </button>
             </div>
           </div>
